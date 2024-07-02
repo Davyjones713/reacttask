@@ -106,7 +106,7 @@ function UserForm() {
                       type="text"
                       name="firstName"
                       required
-                      placeholder="Your Name"
+                      placeholder="სახელი"
                       value={formData.firstName}
                       onChange={handleInputChange}
                     />
@@ -126,7 +126,7 @@ function UserForm() {
                     <Form.Control
                       type="text"
                       name="lastName"
-                      placeholder="Last Name"
+                      placeholder="გვარი"
                       required
                       value={formData.lastName}
                       onChange={handleInputChange}
@@ -275,10 +275,10 @@ function UserForm() {
               </div>
               <div className="d-flex justify-content-center gap-2">
                 <Button variant="success" type="submit">
-                  Submit
+                  შენახვა
                 </Button>
                 <Link to="/user">
-                  <Button>See Profile</Button>
+                  <Button>ბარათის ნახვა</Button>
                 </Link>
               </div>
             </Form>

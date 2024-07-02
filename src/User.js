@@ -56,8 +56,8 @@ const User = () => {
               </div>
             </div>
             <div className="text-center mt-2 text-white fs-4 fw-bold lh-1 mb-3">
-              <span>{firstName.toUpperCase() || "First Name"}</span>{" "}
-              <span>{lastName.toUpperCase() || "Last Name"}</span>
+              <span>{firstName.toUpperCase() || "სახელი"}</span>{" "}
+              <span>{lastName.toUpperCase() || "გვარი"}</span>
             </div>
             <div className="text-center mt-2 text-white fs-5 fw-bold lh-1 mb-4">
               {mail || "Example@gmail.com"}
