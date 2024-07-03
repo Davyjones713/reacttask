@@ -24,6 +24,6 @@ export const userSlice = createSlice({
   },
 });
 
-export const { updateUser, handleInputChange2 } = userSlice.actions;
+export const { updateUser } = userSlice.actions;
 
 export default userSlice.reducer;
